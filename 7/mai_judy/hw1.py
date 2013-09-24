@@ -1,9 +1,9 @@
 def fact(n):
     #return n factorial
     current = n
-    total = 1
+    ans = 1
     while current!=0:
-        total *= current
+        ans *= current
         current -= 1
     return total
 
